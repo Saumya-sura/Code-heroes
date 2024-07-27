@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foss/appdrawer.dart';
 
 
 class Home extends StatelessWidget {
@@ -20,7 +21,7 @@ class Home extends StatelessWidget {
           }
         ),
       ),
-    
+    drawer: AppDrawer(),
       body: Center(
         child: Text('Home Page Content'),
       ),
