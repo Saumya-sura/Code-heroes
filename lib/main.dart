@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foss/encrypt.dart';
 import 'package:foss/home.dart';
 
 
@@ -27,7 +28,12 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         
-        '/': (context) => Home()
+        '/': (context) => Home(),
+        '/encrypt': (context) => Encryption(),
+        // '/translator': (context) => Translator(),
+        // '/toss': (context) => Toss(),
+        // '/calculator': (context) => Calculator(),
+
     
      
       },
