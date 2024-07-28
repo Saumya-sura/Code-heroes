@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:encrypt/encrypt.dart' as encrypt;
+import 'package:foss/appdrawer.dart';
 
 
 class Encryption extends StatefulWidget {
@@ -40,7 +41,7 @@ class _EncryptionState extends State<Encryption> {
           }
         ),
       ),
-      //drawer: ,
+     drawer: AppDrawer(),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(

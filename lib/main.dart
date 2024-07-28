@@ -3,6 +3,7 @@ import 'package:foss/cal.dart';
 import 'package:foss/encrypt.dart';
 import 'package:foss/home.dart';
 import 'package:foss/toss.dart';
+import 'package:foss/translator.dart';
 
 
 
@@ -32,9 +33,9 @@ class MyApp extends StatelessWidget {
         
         '/': (context) => Home(),
         '/encrypt': (context) => Encryption(),
-        '/calculator': (context) => Cal(),
+        '/Cal': (context) => Cal(),
         '/toss': (context) => Coin(),
-        // '/translator': (context) => Translator(),
+        '/translator': (context) => Translate(),
         
         
 

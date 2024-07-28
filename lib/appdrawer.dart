@@ -28,13 +28,7 @@ class AppDrawer extends StatelessWidget {
             },
           ),
           
-          ListTile(
-            title: Text("To-do"),
-            leading: Icon(Icons.list),
-            onTap: () {
-              Navigator.pushNamed(context, '/todo');
-            },
-          ),
+          
           ListTile(
             title: Text("Encrypter"),
             leading: Icon(Icons.no_encryption),
