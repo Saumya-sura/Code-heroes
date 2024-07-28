@@ -38,8 +38,4 @@ this is the feedback page
 ![feedback](https://github.com/user-attachments/assets/6f616100-e641-4f89-a626-42b73feb9dc6)
 
 
-
-![feedback](https://github.com/user-attachments/assets/4a14ffcd-8ffa-490b-937e-81e4eb6e3f96)
-
-
 please share this if u like :)!!
