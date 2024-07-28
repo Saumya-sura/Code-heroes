@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:foss/cal.dart';
 import 'package:foss/encrypt.dart';
 import 'package:foss/home.dart';
+import 'package:foss/toss.dart';
 
 
 
@@ -32,8 +33,9 @@ class MyApp extends StatelessWidget {
         '/': (context) => Home(),
         '/encrypt': (context) => Encryption(),
         '/calculator': (context) => Cal(),
+        '/toss': (context) => Coin(),
         // '/translator': (context) => Translator(),
-        // '/toss': (context) => Toss(),
+        
         
 
     

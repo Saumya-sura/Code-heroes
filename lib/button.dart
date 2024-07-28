@@ -7,7 +7,7 @@ final String buttonText;
 final buttonTapped;
 MyButton({ this.color, this.textcolor, required this.buttonText, this.buttonTapped, required Color textColor});
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {  
     return GestureDetector(  
       onTap:  buttonTapped,
       child:  Padding ( 
