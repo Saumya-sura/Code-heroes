@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  feedback: ^3.1.0
     
 
 
@@ -41,7 +42,7 @@ dependencies:
   http: ^1.2.1
   math_expressions: ^2.5.0
   encrypt: ^5.0.3
-
+  
 
 dev_dependencies:
   flutter_test:

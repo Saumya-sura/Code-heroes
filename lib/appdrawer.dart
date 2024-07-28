@@ -56,6 +56,13 @@ class AppDrawer extends StatelessWidget {
             onTap: (){
               Navigator.pushNamed(context, '/Cal');
             },
+          ),
+          ListTile( 
+            title: Text("Feedback "),
+            leading: Icon(Icons.calculate),
+            onTap: (){
+              Navigator.pushNamed(context, '/feedback');
+            },
           )
         ],
       ),
